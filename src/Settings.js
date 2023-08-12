@@ -19,7 +19,18 @@ const Settings = () => {
             </div>
             <div className="whiteSide">
                 <h1>Settings</h1>
-                <h1>HIIIII</h1>
+                <div className="horizontal-line"></div>
+                <h2>Account</h2>
+                <div className="horizontal-line"></div>
+                <h2>Security</h2>
+                <div className="horizontal-line"></div>
+                <h2>Appearance</h2>
+                <div className="horizontal-line"></div>
+                <h2>Statistics</h2>
+            </div>
+            <div className="graySide">
+                <h1> Account </h1>
+                <h3> Profile</h3>
             </div>
         </div>
     )

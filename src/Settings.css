@@ -9,7 +9,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 20%;
     height: 100%;
     background-color: darkblue;
     display: flex;
@@ -29,7 +29,7 @@
   .whiteSide {
     position: absolute;
     top: 0;
-    left: 30%; /* Adjust to match the width of blueSide */
+    left: 20%; /* Adjust to match the width of blueSide */
     width: 20%; /* The remaining width */
     height: 100%;
     background-color: white;
@@ -41,8 +41,8 @@
   .graySide {
     position: absolute;
     top: 0;
-    left: 50%;
-    width: 50%;
+    left: 40%;
+    width: 60%;
     height: 100%;
     background-color: whitesmoke;
   }
@@ -88,9 +88,66 @@
     height: 100%;
   }
 
+  .graySide > * {
+    margin-left: 30px;
+  }
+
+  .graySide > h3 {
+    margin-top: 50px;
+  }
+
+  form {
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+  }
+
+  input {
+    width: 120%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    margin-top: 5px;
+  }
   
-  
-  
-  
+  .forms {
+    display: flex;
+    margin-bottom: 20px
+  }
+
+  .lastnameForm {
+    margin-left: 80px;
+  }
+
+  .smallcircle {
+    margin-top: 0px;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+    border-radius: 50%;
+  }
+  .pfprow {
+    display: flex;
+  }
+
+  button {
+    background-color: white; /* Your desired background color */
+    color: black; /* Your desired text color */
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+    width: 10%;
+    padding: 2px 2px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+    border: 1px solid black;
+    /* Add more styling as needed */
+  }
+
+
 
 

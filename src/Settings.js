@@ -30,7 +30,75 @@ const Settings = () => {
             </div>
             <div className="graySide">
                 <h1> Account </h1>
-                <h3> Profile</h3>
+                <h2> Profile</h2>
+                <div className="forms">
+                <form>
+                    <label>
+                        First Name:
+                        <input type="text" name="name" />
+                    </label>
+                </form>
+                <form className="lastnameForm">
+                    <label>
+                        Last Name:
+                        <input type="text" name="name" />
+                    </label>
+                </form>
+                </div>
+                <div className="forms">
+                <form>
+                    <label>
+                        Username:
+                        <input type="text" name="name" />
+                    </label>
+                </form>
+                <form className="lastnameForm">
+                    <label>
+                        Password:
+                        <input type="text" name="name" />
+                    </label>
+                </form>
+                </div>
+                <h2>Profile Picture</h2>
+                <div className="pfprow">
+                    <div class ="smallcircle">
+                    </div>
+                    <button>Change</button>
+                    <button> Remove </button>
+                </div>
+                <h2>Personal Information</h2>
+                <div className="forms">
+                    <form>
+                        <label>
+                            Email Address:
+                            <input type="text" name="name" />
+                        </label>
+                    </form>
+                    <form className="lastnameForm">
+                    <label>
+                        Phone Number:
+                        <input type="text" name="name" />
+                    </label>
+                </form>
+                </div>
+                <div className="forms">
+                    <form>
+                        <label>
+                            Country:
+                            <input type="text" name="name" />
+                        </label>
+                    </form>
+                    <form className="lastnameForm">
+                        <label>
+                            Language:
+                            <input type="text" name="name" />
+                        </label>
+                    </form>
+                </div>
+                <div className="forms" id="updateBtn">
+                    <button>Cancel</button>
+                    <button>Save</button>
+                </div>
             </div>
         </div>
     )

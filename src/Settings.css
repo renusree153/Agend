@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .blueSide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blueSide > h3, .blueSide > h4 {
+    color: white;
+    margin-top: 10px;
+  }
+
+  .blueSide > h4 {
+    margin-top: 0px;
+  }
+  
+  .whiteSide {
+    position: absolute;
+    top: 0;
+    left: 30%; /* Adjust to match the width of blueSide */
+    width: 18%; /* The remaining width */
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .circle {
+    margin-top: 20px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 50%;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 30%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+  }
+
+  .menu h3 {
+    margin-left: 50px;
+  }
+
+  .blackLine {
+    border: 1px solid black;
+    margin: 20px 0px;
+  }
+
+  
+  
+  
+  
+
+

@@ -1,0 +1,25 @@
+.card circle {
+    background-color: gray;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    width: 20%;
+    height: 40%;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.smallcircle {
+    margin-top: 5px;
+    display: flex;
+    width: 90px;
+    height: 90px;
+    background-color: lightgray;
+    border-radius: 50%;
+  }

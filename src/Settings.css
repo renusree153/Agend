@@ -60,11 +60,13 @@
     position: absolute;
     top: 30%;
     display: flex;
+    margin-top: 20px;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    height: 50%;
+    height: 40%;
     background-color: white;
+    justify-content: space-between;
   }
   
 
@@ -148,6 +150,23 @@
     /* Add more styling as needed */
   }
 
+  .formsState {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
 
+  #saveBtn {
+    background-color: blue;
+    color: white;
+  }
 
+  .whiteSide > *:hover {
+    color: blue;
+    cursor: pointer;
+  }
+
+  #account {
+    color: blue;
+  }
 

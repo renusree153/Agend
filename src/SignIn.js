@@ -29,8 +29,14 @@ const SignIn = () => {
                     </label>
                 </form>
                 <div className = "btn">
-                    <button> Sign In</button>
-                    <h4> ~ Or Sign In With ~ </h4>
+                    <button> Sign in</button>
+                    <h4> ~ Or Sign in With ~ </h4>
+                </div>
+                <div>
+                    <div className="altOptions">
+                        <button id="google">Sign in with Google</button>
+                        <button id="facebook">Sign in with Facebook</button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,26 @@
+.teams {
+    position: absolute;
+    top: 0;
+    left: 20%; /* Adjust to match the width of blueSide */
+    width: 80%; /* The remaining width */
+    height: 100%;
+    background-color: white;
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.5px;
+  }
+
+#createTeam {
+    background-color: blue; /* Green */
+    width:20%;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2%;
+    height: 80%;
+    border-radius: 20px;
+}

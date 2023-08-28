@@ -20,7 +20,7 @@ const Settings = () => {
             <div className="whiteSide">
                 <h1>Settings</h1>
                 <div className="horizontal-line"></div>
-                <h2>Account</h2>
+                <h2 id="account">Account</h2>
                 <div className="horizontal-line"></div>
                 <h2>Security</h2>
                 <div className="horizontal-line"></div>
@@ -95,9 +95,9 @@ const Settings = () => {
                         </label>
                     </form>
                 </div>
-                <div className="forms" id="updateBtn">
+                <div className="formsState" id="updateBtn">
                     <button>Cancel</button>
-                    <button>Save</button>
+                    <button id="saveBtn">Save</button>
                 </div>
             </div>
         </div>

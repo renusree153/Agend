@@ -3,6 +3,7 @@ import './App.css';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
 import Settings from './Settings';
+import TeamsPage from './TeamsPage';
 import {Routes, Route} from "react-router-dom";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Route path="/" element = {<SignIn/>} />
       <Route path="/signUp" element = {<SignUp/>} />
       <Route path="/settings" element = {<Settings/>}/>
+      <Route path="/teamsPage" element = {<TeamsPage/>}/>
     </Routes>
   );
 }

@@ -15,6 +15,7 @@ const Settings = () => {
                     <h3>Teams</h3>
                     <h3>Find Friends</h3>
                     <h3>Settings</h3>
+                    <h3>Notifications</h3>
                 </div>
             </div>
             <div className="whiteSide">

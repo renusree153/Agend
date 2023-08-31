@@ -1,9 +1,16 @@
 import React from 'react';
 import './SignIn.css';
 import {Link} from 'react-router-dom';
-
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 const SignIn = () => {
+    // adding this navigation for now
+    // so that when "sign in" is pressed we are taken
+    // to the 
+    const navigate = useNavigate();
+    const navigateToHome = () => {
+        navigate('/TeamsPage');
+    }
     return (
         <div className='container'> 
             <div className='design'>
@@ -29,7 +36,7 @@ const SignIn = () => {
                     </label>
                 </form>
                 <div className = "btn">
-                    <button> Sign in</button>
+                    <button onClick = {navigateToHome}> Sign in</button>
                     <h4> ~ Or Sign in With ~ </h4>
                 </div>
                 <div>

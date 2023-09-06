@@ -151,4 +151,15 @@
   .react-calendar--selectRange .react-calendar__tile--hover {
     background-color: #e6e6e6;
   }
+
+  .container2 {
+    display: flex;
+  }
+
+  .cal {
+    margin-bottom: 20px;
+    margin-left: 1400px;
+    background-color: white;
+    justify-content: center;
+  }
   

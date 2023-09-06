@@ -42,6 +42,8 @@
     margin: 0;
     border: 0;
     outline: none;
+    margin-top:10px;
+    font-size: 40px;
   }
   
   .react-calendar button:enabled:hover {

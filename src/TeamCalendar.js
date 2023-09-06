@@ -3,6 +3,7 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import Calendar from 'react-calendar';
 import './TeamCalendar.css';
+import NewEvent from './Event';
 
 const ReactCalendar = () => {
     const [date, setDate] = useState(new Date());
@@ -11,24 +12,17 @@ const ReactCalendar = () => {
     };
 
     return (
-        <div className ="container2">
-            <div className="blueSide">
-            <div class ="circle">
-            </div>
-            <h3>Jane Doe</h3>
-            <h4>Janedoe@gmail.com</h4>
-            <div className = "menu">
-                <h3> Conversations</h3>
-                <h3>Personal Calendar</h3>
-                <h3>Teams</h3>
-                <h3>Find Friends</h3>
-                <h3>Settings</h3>
-                <h3>Notifications</h3>
+        <div className="container2">
+            <div className="blueSide2">
+                <h1> Friday </h1>
+                <h1> September 8th </h1>
+                <div className = "events">
+                    <NewEvent></NewEvent>
+                </div>
             </div>
             <div className = "cal">
                 <Calendar onChange={onChange} value={date} />
             </div>
-        </div>
         </div>
     )
 }

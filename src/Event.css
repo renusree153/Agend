@@ -18,3 +18,14 @@
 #time {
     margin: auto;
 }
+
+#plus {
+    margin-top: 0%;
+    margin-right: 10px;
+    font-size: 24px;
+
+}
+
+#plus:hover {
+    cursor:pointer
+}

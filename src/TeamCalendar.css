@@ -171,19 +171,6 @@
     align-items: center;
   }
 
-  
-.cal {
-    position: absolute;
-    top: 0;
-    left: 30%; /* Adjust to match the width of blueSide */
-    width: 70%; /* The remaining width */
-    height: 100%;
-    background-color: white;
-    border-color: black;
-    border-style: solid;
-    border-radius: 0.5px;
-  }
-
   .events {
     position: absolute;
     top: 15%;
@@ -209,4 +196,22 @@
     margin-top: 10px;
     color: white;
     margin-left: 10px;
+  }
+
+  .cal {
+    position: absolute;
+    top: 0;
+    left: 30%; /* Adjust to match the width of blueSide */
+    width: 70%; /* The remaining width */
+    height: 100%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.5px;
+  }
+  .cal h1 {
+    color: black;
+  }
+
+  .btnsForEvent {
+    display: flex;
   }

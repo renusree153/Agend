@@ -1,3 +1,6 @@
+.container {
+    scroll-snap-type: mandatory;
+}
 .eventCard {
     margin-top: 15px;
     display: flex;

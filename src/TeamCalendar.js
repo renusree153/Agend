@@ -14,8 +14,8 @@ const ReactCalendar = () => {
     return (
         <div className="container2">
             <div className="blueSide2">
-                <h1> Friday </h1>
-                <h1> September 8th </h1>
+                <h1> {date.toDateString().split(" ")[0]} </h1>
+                <h1>  {date.toDateString().split(" ").slice(1).join(" ")} </h1>
                 <div className = "events">
                     <NewEvent></NewEvent>
                 </div>

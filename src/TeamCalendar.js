@@ -40,20 +40,34 @@ const ReactCalendar = () => {
                 <div className = "cal">
                     <h1> Team One </h1>
                     <br></br>
-                    <h2> Event Name </h2>
-                    <hr></hr>
-                    <h2>Required Team Members</h2>
-                    <hr></hr>
-                    <h2>Frequency of Event</h2>
-                    <hr></hr>
-                    <h2> Start Date </h2>
-                    <hr></hr>
-                    <h2> End Date </h2>
-                    <hr></hr>
-                    <h2> Location </h2>
-                    <hr></hr>
-                    <h2>Consistency of Schedule</h2>
-                    <hr></hr>
+                    <label>
+                        Event Name:
+                        <input type="text" name="event1" />
+                    </label>
+                    <label>
+                        Required Team Members:
+                        <input type="text" name="name" />
+                    </label>
+                    <label>
+                        Frequency of Event:
+                        <input type="text" name="name" />
+                    </label>
+                    <label>
+                        Start Date:
+                        <input type="text" name="name" />
+                    </label>
+                    <label>
+                        End Date:
+                        <input type="text" name="name" />
+                    </label>
+                    <label>
+                        Location:
+                        <input type="text" name="name" />
+                    </label>
+                    <select name="Consistency of Schedule" id="selList">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                    </select>
                     <div className = "btnsForEvent">
                         <button> Save </button>
                         <button> Discard</button>

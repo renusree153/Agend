@@ -215,3 +215,15 @@
   .btnsForEvent {
     display: flex;
   }
+
+  .cal label {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+  .cal input {
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 70%;
+    margin-left: 20px;
+  }

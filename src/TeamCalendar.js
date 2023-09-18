@@ -4,9 +4,13 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import Calendar from 'react-calendar';
 import './TeamCalendar.css';
 import NewEvent from './Event';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css'
 
 const ReactCalendar = () => {
     const [date, setDate] = useState(new Date());
+    const [startDate, setStartDate] = useState (new Date());
+    const [endDate, setEndDate] = useState (new Date());
     const [show, setShow] = useState (true);
     const onChange = date => {
         setDate(date)
@@ -54,15 +58,20 @@ const ReactCalendar = () => {
                     </label>
                     <label>
                         Start Date:
-                        <input type="text" name="name" />
+                        <DatePicker selected={startDate} onChange={(startDate) => setStartDate(startDate)} />
                     </label>
+                    <br></br>
                     <label>
                         End Date:
-                        <input type="text" name="name" />
+                        <DatePicker selected={endDate} onChange={(endDate) => setEndDate(endDate)} />
                     </label>
+                    <br></br>
                     <label>
                         Location:
                         <input type="text" name="name" />
+                    </label>
+                    <label>
+                        Consistency Of Schedule:
                     </label>
                     <select name="Consistency of Schedule" id="selList">
                         <option value="option1">Option 1</option>
